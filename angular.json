@@ -25,7 +25,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css","node_modules/@fortawesome/fontawesome-free/css/all.min.css"
             ],
             "scripts": []
           },
@@ -94,11 +94,10 @@
         }
       }
     }
-<<<<<<< HEAD
+
   },
   "cli": {
     "analytics": "9977251c-7b54-46e6-adbc-20341ef1c75d"
-=======
->>>>>>> d2274f02e26cfd88c9c8cc556297aa731bb662b7
+
   }
 }
