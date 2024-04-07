@@ -1,5 +1,7 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { LoginService } from '../login.service';
 
 @Component({
   selector: 'app-login',
@@ -11,10 +13,16 @@ user_name = "Admin"
 password:any = "Admin@123"
 entered_user_name = "";
 entered_password ="";
-constructor( private router: Router){
+data:any=[];
+constructor( private router: Router,private http:HttpClient,private ls:LoginService){
 
 }
 ngOnInit(){
+this.Ldata();
+}
+Ldata(){this.ls.dataChecking().subscribe(data => {
+  console.log(data); 
+});
 
 }
 

@@ -1,0 +1,8 @@
+[{"Id":"1","Fname":"Harsha","Lname":"vardhan","Email":"harsha7595@gmail.com","Dob":"1995-05-07","mobile":"8790620532","username":"harsha7595","Password":"8790620532"},
+{"Id":"2","Fname":"sathish","Lname":"palle","Email":"pallesathish4044@gmail.com","Dob":"1998-03-02","mobile":"7780731400","username":"sathis123","Password":"1234"},
+{"Id":"3","Fname":"ravi","Lname":"nani","Email":"ram@gmail.com","Dob":"2023-09-02","mobile":"8919124685","username":"ram7595","Password":"123456"},
+{"Id":"4","Fname":"santhosh","Lname":"nani","Email":"hari@gmail.com","Dob":"2023-09-07","mobile":"8688201645","username":"santhu","Password":"123456"},
+{"Id":"5","Fname":"sai","Lname":"chandragiri","Email":"saich@gmail.com","Dob":"2023-09-21","mobile":"9502445720","username":"sai.ch","Password":"asdasd"},
+{"Id":"6","Fname":"rama","Lname":"krishna","Email":"rkntr@gmail.com","Dob":"1990-01-01","mobile":"9966683376","username":"rkntr","Password":"securepassword"},
+{"Id":"7","Fname":"raghu","Lname":"narendra","Email":"narendrasimha@gmail.com","Dob":"1990-01-06","mobile":"9110304886","username":"johndoe","Password":"sdmfdms f"},
+{"Id":"8","Fname":"raghu","Lname":"sai","Email":"raghusai@gmail.com","Dob":"1995-04-15","mobile":"9581803795","username":"raghusai","Password":"789456123"}]
