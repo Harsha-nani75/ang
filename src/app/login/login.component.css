@@ -1,0 +1,9 @@
+.main_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btwn_mrgn{
+    margin: 0px 5px;
+}
