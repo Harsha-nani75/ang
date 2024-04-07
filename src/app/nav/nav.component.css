@@ -3,3 +3,8 @@ ul li{
     display: inline;
     padding: 20px;
 }
+i{
+    color: red;
+    border:2px solid red;
+    padding: 5px;
+}
