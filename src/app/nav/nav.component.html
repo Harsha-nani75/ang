@@ -1,18 +1,32 @@
-
 <div class="nav">
     <div class="logo">logo</div>
     <ul>
         <li><a href="">Home</a></li>
-        <li><a href="">About Us</a></li>
+        <li><a href="" routerLink="about">About Us</a></li>
         <li><a href="">Contact</a></li>
-        
-
     </ul>
-    <select name="category" id="category">Select Category</select>
-    <input type="text">
-    <button>Search</button>
-    <a href="#" routerLink="login">Login / Register</a>
-    <a href="#"><img src="../../assets/heart.png" alt="wish list" width="35px" height="35px" srcset=""></a>
-    <a href=""><img src="" alt=""></a>
-    
+    <div class="search-container">
+        <select name="category" id="category">
+            <option value="">Select Category</option>
+            <option value="vegetables">Vegetables</option>
+            <option value="fruits">Fruits</option>
+        </select>
+        <input type="text" placeholder="Search">
+        <button>
+            <img src="../../assets/search-interface-symbol.png" alt="Search" width="20px" height="20px">
+        </button>
+    </div>
+    <div class="user-actions">
+        <a *ngIf="!isLoggedIn" href="#" routerLink="login">Login</a>
+        <span *ngIf="isLoggedIn">{{ username }}</span>
+        <a href="#">
+            <img src="../../assets/heart.png" alt="wish list" width="35px" height="35px">
+        </a>
+        <a href="#">
+            <img src="../../assets/shopping-cart.png"  alt="cart" width="35px" height="35px">
+        </a>
+    </div>
+    <div class="hamburger-menu">
+        <img src="hamburger-icon.png" alt="Menu" width="30px" height="30px">
+    </div>
 </div>
